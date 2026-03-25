@@ -1,0 +1,2405 @@
+{
+    "AudioMarkerChannel": 1,
+    "AudioSampleRate": 16000.0,
+    "EmgHpFilterCutoff": 0.3,
+    "EmgLpFilterCutoff": 500.0,
+    "EmgMarkerChannel": 40,
+    "EmgSampleRate": 2048.0,
+    "audible": {
+        "0001": true,
+        "0002": true,
+        "0003": true,
+        "0004": true,
+        "0005": true,
+        "0006": true,
+        "0007": true,
+        "0008": true,
+        "0009": true,
+        "0010": true,
+        "0011": true,
+        "0012": true,
+        "0013": true,
+        "0014": true,
+        "0015": true,
+        "0016": true,
+        "0017": true,
+        "0018": true,
+        "0019": true,
+        "0020": true,
+        "0021": true,
+        "0022": true,
+        "0023": true,
+        "0024": true,
+        "0025": true,
+        "0026": true,
+        "0027": true,
+        "0028": true,
+        "0029": true,
+        "0030": true,
+        "0031": true,
+        "0032": true,
+        "0033": true,
+        "0034": true,
+        "0035": true,
+        "0036": true,
+        "0037": true,
+        "0038": true,
+        "0039": true,
+        "0040": true,
+        "0041": true,
+        "0042": true,
+        "0043": true,
+        "0044": true,
+        "0045": true,
+        "0046": true,
+        "0047": true,
+        "0048": true,
+        "0049": true,
+        "0050": true,
+        "0051": true,
+        "0052": true,
+        "0053": true,
+        "0054": true,
+        "0055": true,
+        "0056": true,
+        "0057": true,
+        "0058": true,
+        "0059": true,
+        "0060": true,
+        "0061": true,
+        "0062": true,
+        "0063": true,
+        "0064": true,
+        "0065": true,
+        "0066": true,
+        "0067": true,
+        "0068": true,
+        "0069": true,
+        "0070": true,
+        "0071": true,
+        "0072": true,
+        "0073": true,
+        "0074": true,
+        "0075": true,
+        "0076": true,
+        "0077": true,
+        "0078": true,
+        "0079": true,
+        "0080": true,
+        "0081": true,
+        "0082": true,
+        "0083": true,
+        "0084": true,
+        "0085": true,
+        "0086": true,
+        "0087": true,
+        "0088": true,
+        "0089": true,
+        "0090": true,
+        "0091": true,
+        "0092": true,
+        "0093": true,
+        "0094": true,
+        "0095": true,
+        "0096": true,
+        "0097": true,
+        "0098": true,
+        "0099": true,
+        "0100": true,
+        "0101": true,
+        "0102": true,
+        "0103": true,
+        "0104": true,
+        "0105": true,
+        "0106": true,
+        "0107": true,
+        "0108": true,
+        "0109": true,
+        "0110": true,
+        "0111": true,
+        "0112": true,
+        "0113": true,
+        "0114": true,
+        "0115": true,
+        "0116": true,
+        "0117": true,
+        "0118": true,
+        "0119": true,
+        "0120": true,
+        "0121": true,
+        "0122": true,
+        "0123": true,
+        "0124": true,
+        "0125": true,
+        "0126": true,
+        "0127": true,
+        "0128": true,
+        "0129": true,
+        "0130": true,
+        "0131": true,
+        "0132": true,
+        "0133": true,
+        "0134": true,
+        "0135": true,
+        "0136": true,
+        "0137": true,
+        "0138": true,
+        "0139": true,
+        "0140": true,
+        "0141": true,
+        "0142": true,
+        "0143": true,
+        "0144": true,
+        "0145": true,
+        "0146": true,
+        "0147": true,
+        "0148": true,
+        "0149": true,
+        "0150": true,
+        "0151": true,
+        "0152": true,
+        "0153": true,
+        "0154": true,
+        "0155": true,
+        "0156": true,
+        "0157": true,
+        "0158": true,
+        "0159": true,
+        "0160": true,
+        "0161": true,
+        "0162": true,
+        "0163": true,
+        "0164": true,
+        "0165": true,
+        "0166": true,
+        "0167": true,
+        "0168": true,
+        "0169": true,
+        "0170": true,
+        "0171": true,
+        "0172": true,
+        "0173": true,
+        "0174": true,
+        "0175": true,
+        "0176": true,
+        "0177": true,
+        "0178": true,
+        "0179": true,
+        "0180": true,
+        "0181": true,
+        "0182": true,
+        "0183": true,
+        "0184": true,
+        "0185": true,
+        "0186": true,
+        "0187": true,
+        "0188": true,
+        "0189": true,
+        "0190": true,
+        "0191": true,
+        "0192": true,
+        "0193": true,
+        "0194": true,
+        "0195": true,
+        "0196": true,
+        "0197": true,
+        "0198": true,
+        "0199": true,
+        "0200": true,
+        "0201": true,
+        "0202": true,
+        "0203": true,
+        "0204": true,
+        "0205": true,
+        "0206": true,
+        "0207": true,
+        "0208": true,
+        "0209": true,
+        "0210": true,
+        "0211": true,
+        "0212": true,
+        "0213": true,
+        "0214": true,
+        "0215": true,
+        "0216": true,
+        "0217": true,
+        "0218": true,
+        "0219": true,
+        "0220": true,
+        "0221": true,
+        "0222": true,
+        "0223": true,
+        "0224": true,
+        "0225": true,
+        "0226": true,
+        "0227": true,
+        "0228": true,
+        "0229": true,
+        "0230": true,
+        "0231": true,
+        "0232": true,
+        "0233": true,
+        "0234": true,
+        "0235": true,
+        "0236": true,
+        "0237": true,
+        "0238": true,
+        "0239": true,
+        "0240": true,
+        "0241": true,
+        "0242": true,
+        "0243": true,
+        "0244": true,
+        "0245": true,
+        "0246": true,
+        "0247": true,
+        "0248": true,
+        "0249": true,
+        "0250": true,
+        "0251": true,
+        "0252": true,
+        "0253": true,
+        "0254": true,
+        "0255": true,
+        "0256": true,
+        "0257": true,
+        "0258": true,
+        "0259": true,
+        "0260": true,
+        "0261": true,
+        "0262": true,
+        "0263": true,
+        "0264": true,
+        "0265": true,
+        "0266": true,
+        "0267": true,
+        "0268": true,
+        "0269": true,
+        "0270": true,
+        "0271": true,
+        "0272": true,
+        "0273": true,
+        "0274": true,
+        "0275": true,
+        "0276": true,
+        "0277": true,
+        "0278": true,
+        "0279": true,
+        "0280": true,
+        "0281": true,
+        "0282": true,
+        "0283": true,
+        "0284": true,
+        "0285": true,
+        "0286": true,
+        "0287": true,
+        "0288": true,
+        "0289": true,
+        "0290": true,
+        "0291": true,
+        "0292": true,
+        "0293": true,
+        "0294": true,
+        "0295": true,
+        "0296": true,
+        "0297": true,
+        "0298": true,
+        "0299": true,
+        "0300": true,
+        "0301": true,
+        "0302": true,
+        "0303": true,
+        "0304": true,
+        "0305": true,
+        "0306": true,
+        "0307": true,
+        "0308": true,
+        "0309": true,
+        "0310": true,
+        "0311": true,
+        "0312": true,
+        "0313": true,
+        "0314": true,
+        "0315": true,
+        "0316": true,
+        "0317": true,
+        "0318": true,
+        "0319": true,
+        "0320": true,
+        "0321": true,
+        "0322": true,
+        "0323": true,
+        "0324": true,
+        "0325": true,
+        "0326": true,
+        "0327": true,
+        "0328": true,
+        "0329": true,
+        "0330": true,
+        "0331": true,
+        "0332": true,
+        "0333": true,
+        "0334": true,
+        "0335": true,
+        "0336": true,
+        "0337": true,
+        "0338": true,
+        "0339": true,
+        "0340": true
+    },
+    "block": "Block1-Initial",
+    "promptList": {
+        "0001": "THE RESULTS HAVE PROMPTED THEM TO QUESTION THE GOVERNMENT'S RECOMMENDATION",
+        "0002": "A DEMOCRATIC COMMITTEE MEMBER HAS ISSUED A STATEMENT CONDEMNING REPUBLICAN LEAKS",
+        "0003": "THIS COUNTRY HAS RELIED ON IMMIGRANTS AND IS FOUNDED UPON A PRINCIPLE OF WELCOMING IMMIGRANTS",
+        "0004": "THE FEDERAL AVIATION ADMINISTRATION IS FIERCELY DEFENDING ITS OPERATIONS IN TESTIMONY BEFORE CONGRESS",
+        "0005": "PLEASE JOIN US AGAIN TOMORROW",
+        "0006": "IT SHOWS ABOUT A SEVENTY PERCENT EFFECTIVENESS IN HUMAN TRIALS",
+        "0007": "THEY ALREADY VOTED FOR THE FIRST TIME",
+        "0008": "STATE DEPARTMENT EMPLOYEES SNEAKED A LOOK AT HIS PASSPORT",
+        "0009": "I THINK SHE JUST DOESN'T UNDERSTAND",
+        "0010": "BOTH OUR CORPORATE AND FOUNDATION CONTRIBUTIONS WERE UP AS WELL AS OUR INDIVIDUAL CONTRIBUTIONS",
+        "0011": "THE MANUSCRIPT WAS FOUND IN AN ATTIC SOMEWHERE IN AMERICA",
+        "0012": "SOME DOWN SIZING WAS NECESSARY",
+        "0013": "WE BEGIN TONIGHT WITH A MAJOR BLOW TO THE PRESIDENT'S HOPES",
+        "0014": "WE HAVE A CALL FROM TEXAS",
+        "0015": "I AM GRATEFUL FOR THE CHANCE",
+        "0016": "HER DOCTOR RECEIVED PERMISSION TO ADMINISTER AN EXPERIMENTAL ANTIBIOTIC",
+        "0017": "THE COALITIONS ARE SPONSORING TWO SEPARATE INITIATIVES",
+        "0018": "YOU CAN LEARN A LOT ABOUT THE WEALTHY",
+        "0019": "WE CAN DO IT",
+        "0020": "FINGERPRINTS WERE EXTENSIVELY USED AND ALSO DENTAL EVIDENCE WAS USED IN THOSE PARTICULAR CASES",
+        "0021": "THE SENATOR SAID GOODBYE TO REPUBLICANS ON CAPITOL HILL TODAY",
+        "0022": "WE RECEIVED THIS AUDIO POST CARD FROM NEW YORK",
+        "0023": "THEY HAVE THE IDEA OF LETTING THE AFRICANS HANDLE AN AFRICAN SITUATION",
+        "0024": "THEY WANT SOMEONE WHO CAN TEACH THEM RESPONSIBILITY",
+        "0025": "STRATEGY CAME YESTERDAY AFTER HE MET WITH REPUBLICAN GOVERNORS IN WASHINGTON",
+        "0026": "FEDERAL INVESTIGATORS ARE TREATING THEM LIKE SUSPECTS",
+        "0027": "THERE ARE A LOT OF GOOD FAMILIES LIVING THERE",
+        "0028": "HIS FORMER BUSINESS PARTNERS ARE FOUND GUILTY OF FRAUD AND CONSPIRACY",
+        "0029": "SHE IS CALLED THE ICE MAIDEN",
+        "0030": "THE HOUSE MAJORITY LEADER ADMITTED HIS PARTY HAS A PUBLIC RELATIONS PROBLEM ON MINIMUM WAGES",
+        "0031": "CHARITABLE CONTRIBUTIONS OVERALL INCREASED A WHOPPING TEN PERCENT",
+        "0032": "HE MEANS THAT LAST PART",
+        "0033": "MEANWHILE REPUBLICANS ARE LOOKING FORWARD TO SEPARATING THE SENATE AGENDA FROM THE PRESIDENTIAL AGENDA",
+        "0034": "THE ADMINISTRATION ANNOUNCED STEPS TO COORDINATE STATE AND FEDERAL EFFORTS",
+        "0035": "THE NATIONAL TRANSPORTATION SAFETY BOARD CALLS THESE CANISTERS THE NUMBER ONE ISSUE IN ITS INVESTIGATION",
+        "0036": "THREE NEW MEDIATORS HAVE VISITED THE RANCH",
+        "0037": "THAT'S THE WORST VETO THAT THE PRESIDENT HAS DONE",
+        "0038": "YOU KNOW IT'S HAPPENING",
+        "0039": "WE'LL TAKE A LOOK AT OUR TOP STORIES",
+        "0040": "YOU CAN SEE THE RAIN CURTAINS ARE WRAPPING",
+        "0041": "TODAY A NORTH KOREAN AIR FORCE CAPTAIN FLEW HIS PLANE INTO SOUTH KOREA",
+        "0042": "SHE'D GET UP EARLY IN THE MORNING",
+        "0043": "LET'S DO SOME DRUMMER JOKES HERE",
+        "0044": "THERE IS NO GETTING IN OR OUT OF THIS VALLEY",
+        "0045": "WE'LL SEE YOU TOMORROW",
+        "0046": "THE LEFT COLUMN RUNS THE LENGTH OF THE PAGE",
+        "0047": "HE WAS DANCING AT A ROCK",
+        "0048": "THEY JUST WROTE IT OFF",
+        "0049": "IT GOES IN HERE FOR ELECTRONIC SCANNING",
+        "0050": "SINCE THE FOUNDING OF THIS COUNTRY, AMERICANS HAVE GONE TO THE WILDERNESS",
+        "0051": "THE JUSTICE DEPARTMENT TEAMS UP WITH FLORIDA TO CLEAN UP ILLEGAL IMMIGRATION",
+        "0052": "THE WOMAN'S OWN WOUNDS ALLEGEDLY SELF INFLICTED",
+        "0053": "YOU CAN SEE THEM OUT OF CAGES",
+        "0054": "THIS AFTERNOON THE PRINCESS VISITED THE COUNTY HOSPITAL",
+        "0055": "THEY SAID THEY HAD WATER IN IT",
+        "0056": "THE DRUG COSTS LESS THAN TWO DOLLARS A PILL",
+        "0057": "WE HAD A LOT OF EXPERTISE",
+        "0058": "IT IS AN AWARD WINNING TELEVISION",
+        "0059": "THIS SELLER IS SEVENTY TWO YEARS OLD",
+        "0060": "THAT MOTION CAN LEAD TO MORE INJURIES ESPECIALLY IN TRACK AND FIELD EVENTS",
+        "0061": "IT WAS EXTREMELY LONG AND APPEARED TO CONTAIN HUNDREDS OF NAMES FROM PAST ADMINISTRATIONS",
+        "0062": "IT MEANS NATIONAL GUARD",
+        "0063": "THEY WERE USED IN VIETNAM AND KOREA",
+        "0064": "THAT IS FROM FAIRMONT, WEST VIRGINIA",
+        "0065": "IT WAS A SHOCKER",
+        "0066": "YOU GET THE LAST WORD",
+        "0067": "THE ADMINISTRATION HAS ANNOUNCED IT IS GOING TO EXPAND",
+        "0068": "THIS WEEK THE COLORADO STATE SENATOR LEFT AFTER A SHOUTING MATCH",
+        "0069": "ONE FEATURE WE LOOK FOR AT THIS POINT IS TO SEE A LITTLE NOTCH",
+        "0070": "DURING THEIR SEARCH, NO HUMAN REMAINS WERE DISCOVERED",
+        "0071": "WE FIRST NEED TO HAVE HONESTY",
+        "0072": "TO PROTECT YOUR HEAD AND FACE FROM THE SUN IS VERY IMPORTANT",
+        "0073": "PEOPLE FROM ALL OVER THE COUNTRY COME TO OUR MARKET PLACE",
+        "0074": "THEY ARE CALLING IT A GIANT STEP TOWARD A NEW TYPE OF SPACE TECHNOLOGY",
+        "0075": "SHE'S RIGHT OVER HERE",
+        "0076": "IT'S A PSYCHOLOGICAL FORM OF TERRORISM AND THERE'S NO CURE FOR IT",
+        "0077": "THAT MAKES KIDS FEEL AT HOME WITH MODERN ART",
+        "0078": "WE'RE GOING TO MISS EVERYBODY WHO RETIRES",
+        "0079": "AS SHE LEFT, THE PRINCESS WAVED AND FLASHED ONE OF HER BIG SMILES",
+        "0080": "THEY LAID THEM DOWN ON UNPAVED GROUND",
+        "0081": "THE SATELLITE FLEW OVER AFRICA MISSION",
+        "0082": "CORPORATIONS HAVE CONTRIBUTED MONEY TO THE SCHOOL",
+        "0083": "THE SUPREME COURT HAS HANDED BUSINESS AN IMPORTANT VICTORY",
+        "0084": "YOU ARE A SUPPORTER OF THAT",
+        "0085": "IT'S THE LEAD HEADLINE",
+        "0086": "ONE ACTOR HEARD WEDDING BELLS RECENTLY",
+        "0087": "NO PRESIDENT GOES UNCHALLENGED BY FOREIGN POLICY",
+        "0088": "ACTUALLY IN THE LAST FOUR YEARS, SERIOUS CRIME IN AMERICA HAS GONE DOWN SLIGHTLY",
+        "0089": "THEY ARE INSPECTING SOME EIGHTEEN THOUSAND AIRLINE PLANES",
+        "0090": "I DID NOT AGREE WITH THE DECISION TO NORMALIZE RELATIONS WITH VIETNAM",
+        "0091": "CAN I JUST ASK YOU THE REASONING WHY YOU WERE IN NEPAL AND TIBET",
+        "0092": "IT PROVIDES A VOICE FOR CHILDREN WITHOUT ONE OF THEIR OWN",
+        "0093": "A NEW DUST BOWL MAY BE DEVELOPING ON THE WESTERN PLAINS",
+        "0094": "PITCHERS THINK EVERY BATTER KNOWS WHAT'S COMING",
+        "0095": "ACTUALLY I FORGET WHAT THEY ARE CALLED",
+        "0096": "THERE WERE BOTH STUDENTS AND VOLUNTEERS",
+        "0097": "HE PUT THE NATION FIRST AND THAT'S WHAT I'M TRYING TO INDICATE HERE",
+        "0098": "BAD NEWS FOR THE DEFENDANTS COULD BE EVEN WORSE",
+        "0099": "THEY PUT IN A CERTAIN AREA",
+        "0100": "MANY OF YOU HAVE TAKEN US UP ON OUR OFFER TO DISCUSS THIS ONGOING SERIES",
+        "0101": "HE WILL TALK TO THE FOREPERSON OF THE JURY IN A MOMENT",
+        "0102": "IT WOULD BE THEN LIKE HITTING A CONCRETE WALL",
+        "0103": "WE JUST NEED A NEW BUILDING",
+        "0104": "YOU ARE MORE OPTIMISTIC THAN I AM",
+        "0105": "HE EXPECTS A VOTE TO TAKE PLACE ALMOST IMMEDIATELY AFTER HE LEAVES",
+        "0106": "ONCE AGAIN, SAILORS ARE ON THE TOWN THIS WEEKEND",
+        "0107": "THAT'S THE WAY THAT A NUMBER OF SENIORS AND CERTAINLY DEMOCRATS FEEL ABOUT",
+        "0108": "CITY OFFICIALS ESTIMATE THE NUMBER OF MEXICANS IS ACTUALLY CLOSER TO SEVEN THOUSAND",
+        "0109": "INDIANS OFFICIALS SAY THAT ALBERT BELL WILL GO",
+        "0110": "LET'S START BY LOOKING AT HOW THE MEDICARE STORY HAS PLAYED IN SOME PLACES",
+        "0111": "HIS CELL ON DEATH ROW WILL BE FILLED BY SOMEONE ELSE",
+        "0112": "THE CAR IS REGISTERED TO SOMEONE ELSE",
+        "0113": "THIS IS SUPPOSED TO BE EQUAL OPPORTUNITY",
+        "0114": "SHE IS A FREE LANCE WRITER AND THE MOTHER OF A TODDLER",
+        "0115": "IT'S NOT UNUSUAL FOR BIG RETAIL CHAINS TO DEMAND EXCLUSIVES LIKE THAT",
+        "0116": "THEY'VE TAKEN MANY HOURS OF HOME VIDEOS",
+        "0117": "MIKE ALWAYS HAD THE RIGHT SOLUTION AND ALWAYS THE RIGHT WORD TO CHEER ME ON",
+        "0118": "THE LOS ANGELES DISTRICT ATTORNEY'S OFFICE MUST DECIDE WHETHER TO RETRY THE CASE",
+        "0119": "SHE THINKS THE CRITICS OUGHT TO RELAX",
+        "0120": "I THINK IT WOULD BE UNCONSTITUTIONAL",
+        "0121": "THAT'S BEYOND ORDINARY FOR PEOPLE TO HAVE THIS TYPE OF THING IN THEIR HEART",
+        "0122": "I THINK IT WAS A WEEK OR TEN DAYS",
+        "0123": "TORNADOES ARE THE MOST UNPREDICTABLE AND MOST VIOLENT OF STORMS",
+        "0124": "THE DEFENSE LAWYERS EXPECT JURY SELECTION WILL TAKE UP TO TWO WEEKS",
+        "0125": "AUTOMATIC WEAPONS FROM CHINA TO BE SOLD IN AMERICA",
+        "0126": "FANS APPARENTLY FEEL FREE TO MAKE THEIR OWN SUGGESTIONS",
+        "0127": "EVERY DROP IS NOW PRECIOUS",
+        "0128": "DOCTORS IN CALIFORNIA SAY THE SEPARATED TWINS ARE DOING BETTER",
+        "0129": "WE'RE GOING TO TRAVEL UP TO NEW YORK CITY AND VISIT WITH OUR FRIEND",
+        "0130": "WHEN WE WERE DOWN ON THE BOTTOM, EVERYTHING BAD WAS HAPPENING TO US",
+        "0131": "HUMAN BEINGS DEVELOPED FROM EARLIER SPECIES OF ANIMALS",
+        "0132": "THAT'S A NAME WE HAVEN'T HEARD IN A LONG TIME",
+        "0133": "THE AVERAGE PERSON DON'T REALIZE HOW IMPORTANT HONEY BEES ARE",
+        "0134": "YOU CAN GET A WHOLE BUNCH OF PEOPLE TOGETHER",
+        "0135": "THE MISSION MAY BE IMPOSSIBLE",
+        "0136": "HE TOOK US ON A TOUR",
+        "0137": "THEY ARE HAVING A FIELD DAY",
+        "0138": "THEY BUILT SIXTEEN PRISONS AND ONE UNIVERSITY",
+        "0139": "IT IS A TENSE AND DEFINING MOMENT FOR THE AEROSPACE INDUSTRY",
+        "0140": "IF THERE WAS ANY LARGE OBJECTS IN THE CRATER, I WOULD HAVE RUN INTO THEM",
+        "0141": "IT'S TIME AGAIN TO GET ANOTHER CHECK ON TRAFFIC CONDITIONS",
+        "0142": "THE BLOWERS ARE OUT IN FORCE THIS TIME OF YEAR",
+        "0143": "WE ALWAYS HAVE FUN IN THIS SEGMENT AS YOU KNOW",
+        "0144": "HE IS WELL AWARE THAT CONFIDENCE IN PUBLIC EDUCATION IS ERODING",
+        "0145": "YOU NEARLY LOST IT THERE",
+        "0146": "SOMETIMES THEY DON'T WANT THE MEXICAN PEOPLE",
+        "0147": "UNIVERSITIES AND COLLEGES SAW AN EIGHT PERCENT INCREASE",
+        "0148": "FEDERAL AGENTS ARE ALSO INVESTIGATING NEARLY TWO DOZEN FIRES AT CHURCHES",
+        "0149": "UNTIL THE END, HE CONTINUES TO MAINTAIN HE NEVER SHOT EITHER VICTIM",
+        "0150": "REPUBLICANS AND DEMOCRATS CAN'T AGREE ON HOW TO REFORM THE SYSTEM",
+        "0151": "HE'LL BE TRIED AGAIN",
+        "0152": "THERE WERE NO REFERENCES TO THAT",
+        "0153": "THEY SAID THE POSSIBILITY OF COPYCAT CRIMES WAS MORE FRIGHTENING THAN A CONSPIRACY",
+        "0154": "LET'S MOVE OVER TO THE LIBERAL DEFINITION",
+        "0155": "THERE SHOULD BE A STANDARD CUT OFF AGE",
+        "0156": "TODAY YOUNG SPELLING BEE CHAMPS COME FROM AROUND THE COUNTRY",
+        "0157": "AIR CONDITIONER SALES PEOPLE WERE ALSO HAPPY",
+        "0158": "THAT SEEMS TO BE A MINORITY OPINION",
+        "0159": "HE IS A ROLE MODEL",
+        "0160": "THE ONLY THING THAT BOTHERS ME IS PUTTING HIM INTO DAY CARE AT HIS AGE",
+        "0161": "WE ARE DOWN TO OUR BIG FINAL PRIZE CATEGORY",
+        "0162": "A BULLET LODGED IN HIS BRAIN",
+        "0163": "I WAS GOING TO BE AN ENGLISH PROFESSOR AT ONE TIME",
+        "0164": "THANK YOU FOR YOUR CALL",
+        "0165": "COMMUNITIES WON'T ALWAYS PROTECT THEM",
+        "0166": "I WANT TO ASK EVERY CITIZEN AS WE STAND ON THIS HOLLOWED GROUND TOGETHER",
+        "0167": "THIS WILL NO LONGER BE HIS PROBLEM WHEN HE LEAVES NEXT MONTH",
+        "0168": "UNITS WERE PRACTICALLY FLYING OUT OF THE STORE",
+        "0169": "THAT SHOULD BE QUESTIONED",
+        "0170": "A TEACHER CONTINUES TO MAKE A DIFFERENCE",
+        "0171": "IF POWER AND TELEPHONE SERVICE IS CUT OFF, THAT WOULD FURTHER ISOLATE THEM",
+        "0172": "THE LAST VICE PRESIDENT LED AN UNSUCCESSFUL REVOLT",
+        "0173": "IT WASN'T JUST PART OF THAT WHOLE BIG BATCH",
+        "0174": "HIS DOCTOR RECOMMENDS A MIDDLE PATH",
+        "0175": "IN A TEST LAST SUMMER, A LAB VAN TRAVELED FROM WASHINGTON TO SAN DIEGO",
+        "0176": "I MEAN YOU WERE OFF A HUNDRED PERCENT ON THIS ONE THING",
+        "0177": "THERE IS JUST TREMENDOUS ENTHUSIASM WHEN THE BOOKS ARRIVE",
+        "0178": "THEY'VE CANCELLED SEVEN FLIGHTS IN A ROW",
+        "0179": "MORE DISEASE OUTBREAKS MAY BE ON TAP",
+        "0180": "THIS IS ONE PLACE IN THE WORLD WHERE WE MIGHT BE ABLE TO GUARANTEE FOR",
+        "0181": "NAVY MEN AND WOMEN ARE TAUGHT TO STRIVE FOR HONOR",
+        "0182": "THE TORNADO IS MOVING SOUTHEAST AT TWENTY FIVE MILES AN HOUR",
+        "0183": "I ASKED HER IF SHE EVER CONSIDERED GIVING UP",
+        "0184": "THE FORMER ASSISTANT SECRETARY OF DEFENSE IS RESPONSIBLE FOR ASIA POLICY",
+        "0185": "IT'S GOING TO BE A REALLY BIG CHANGE FOR THE COMMUNITY",
+        "0186": "WHATEVER CAN BE DEMONIZED IS VULNERABLE TO THEIR HATRED",
+        "0187": "INFORMATION AND PICTURES OF TWELVE THOUSAND OLYMPIC ATHLETES ARE AVAILABLE",
+        "0188": "NOW IT IS UP TO THE EUROPEANS TO UNDERSTAND IT",
+        "0189": "I COULD DO WHATEVER I WANT",
+        "0190": "THAT'S WHAT CAUSED HER DEATH",
+        "0191": "OUTSIDE THE COURTROOM, FRIENDS AND FAMILY SAY HE WAS UNJUSTLY ACCUSED",
+        "0192": "THE CARAVAN KEEPS MOVING ACROSS THE ENDLESS DESERT",
+        "0193": "HER NAME REMAINED ON THE BALLOT",
+        "0194": "AMONG BEE RESEARCHERS, PARASITIC MITES IS THE NUMBER ONE PRIORITY",
+        "0195": "YOU SHOULD GO SEE IT",
+        "0196": "A NEW WASHINGTON PARK CELEBRATES FREEDOM IN THE UNITED STATES AND AROUND THE WORLD",
+        "0197": "IT'S NINETY NINE PERCENT SURE",
+        "0198": "ACTIVIST OBJECTS TO CANDIDATE LINKING DOMESTIC VIOLENCE TO WELFARE",
+        "0199": "THAT HAS AFFECTED YOUR POLITICAL BELIEFS",
+        "0200": "HE CLAIMS THE GOVERNMENT HAS THE WRONG MAN",
+        "0201": "ONE AFTER ANOTHER DEMOCRATS SAID THAT THE REPUBLICANS' CHARGES ARE ROOTED IN POLITICS",
+        "0202": "I'M NOT REQUIRED TO DO THE DANCE",
+        "0203": "I WAS EMOTIONALLY VULNERABLE AT THAT POINT",
+        "0204": "HE HAS BEEN SENTENCED TO TWENTY EIGHT MONTHS IN PRISON ON FRAUD CHARGES",
+        "0205": "THE DEMOCRATS ARE HAVING NONE OF IT",
+        "0206": "THE GULF BETWEEN THE TWO NATIONS MAY BE WIDER THAN THE ATLANTIC OCEAN",
+        "0207": "SHE HAS AN UPDATE FROM MOSCOW",
+        "0208": "I'VE NOW SENT APPROXIMATELY SIXTY LETTERS",
+        "0209": "HE STILL SAYS THE PROGRAMS ARE THE ONLY HOPE",
+        "0210": "THEY JOURNEYED ALONG THE FRONT RANGE",
+        "0211": "TELL US A LITTLE BIT ABOUT YOU",
+        "0212": "IT IS ON DISPLAY AT THE NATIONAL GEOGRAPHIC SOCIETY IN WASHINGTON",
+        "0213": "THE SMOKE KIND OF DISSIPATES PRETTY QUICKLY",
+        "0214": "WE STARTED SMELLING FUMES IN THE BACK",
+        "0215": "I DON'T KNOW IF YOU SAW DAVID'S COLUMN",
+        "0216": "HEALTHY PEOPLE GET PLACARDS BECAUSE THERE ARE SO FEW CONTROLS",
+        "0217": "HE BLURTS OUT SOMETHING IN THE COURSE OF A QUESTION",
+        "0218": "SHE HAS CHILDREN IN FOURTH AND FIRST GRADES HERE",
+        "0219": "IT PICKS UP THE MOVING VIOLATIONS",
+        "0220": "THESE PIECES ARE VERY SMALL RIGHT NOW",
+        "0221": "THE OLYMPIC TORCH IS NOW HALFWAY THROUGH",
+        "0222": "MY CHILDREN HAVE GROWN UP IN RELATIVELY ISOLATED UNIVERSITY COMMUNITIES",
+        "0223": "THEY MAY ALREADY BE ON THE ROAD TO RELIEF",
+        "0224": "ANOTHER STUDY PUBLISHED IN THE JOURNAL SUPPORTS THIS POSITION",
+        "0225": "THE EXPLOSION OF HOLLYWOOD SPECIAL EFFECTS IS CREATING A BOOM IN NEW JOBS",
+        "0226": "WE FOUND NO RELATIONSHIP BETWEEN SALT INTAKE AND BLOOD PRESSURE IN HEALTHY INDIVIDUALS",
+        "0227": "THE PRESIDENT ISSUES AN ORDER ON THE USE OF LAND MINES",
+        "0228": "AMERICA'S WATERS ARE STILL AT RISK",
+        "0229": "THE LIQUOR INDUSTRY HAS UNCORKED A DECADES OLD BAN",
+        "0230": "RICHARD'S HOBBY IS PART OF THE LARGER EFFORT TO UNDERSTAND TORNADOES",
+        "0231": "WE'LL TELL YOU HOW MANY OF US ARE HELPING OTHERS",
+        "0232": "OFFICIALS ARE ADDING UP THE DAMAGE FIGURES",
+        "0233": "THE CHINESE GOVERNMENT HAS REFUSED TO COMMENT ABOUT THE ARRESTS",
+        "0234": "I'LL BE BACK AFTER THIS",
+        "0235": "I BELIEVE WE CAN CUT TAXES, REFORM THE TAX CODE, AND BALANCE THE BACK BUDGET",
+        "0236": "THE CLERK READ THE VERDICT AGAINST HIM GUILTY ON ALL TEN COUNTS",
+        "0237": "BRING IT UP ANYTIME YOU WANT AND I'LL NOT STAND IN YOUR WAY",
+        "0238": "WE FEEL TOO SORRY FOR THE ANIMALS WHEN WE GO THERE",
+        "0239": "THE STAFF WAS TOLD NOT TO BOTHER THEM",
+        "0240": "THAT'S WHAT I MEANT TO SAY AND I DIDN'T SAY IT WELL",
+        "0241": "THEY WILL NO LONGER ACCEPT MANY RETURN ITEMS",
+        "0242": "CONGRESS WAS TO CONSIDER CONTEMPT CHARGES ON THE VERY DAY",
+        "0243": "IT STARTS WITH PERSONAL RESPONSIBILITY",
+        "0244": "HE TESTIFIED THIS MORNING",
+        "0245": "HAVING YOUNG FRIENDS MAKES A TREMENDOUS DIFFERENCE",
+        "0246": "HE'S A YOUNG PRIME MINISTER",
+        "0247": "I CAN DEAL WITH WHATEVER I HAVE TO GO THROUGH",
+        "0248": "AN EARLIER MISTAKE TOOK THEM OUTSIDE A PROTECTED AIR CORRIDOR",
+        "0249": "NOW HE'S GOTTEN TO THE POINT",
+        "0250": "BOB PLANS A CAMPAIGN LATER TODAY IN THE STATE OF VIRGINIA",
+        "0251": "PRESUMABLY THEY ARE SMALL SIZE CONTAINERS",
+        "0252": "THIS IS NOT NEW",
+        "0253": "THIS AGENDA WILL CONSIST SOLELY OF ACHIEVABLE LEGISLATION",
+        "0254": "I THOUGHT OF VERY LITTLE ELSE",
+        "0255": "HE SIMPLY REFUSES TO TESTIFY AND EVEN WITH IMMUNITY",
+        "0256": "YOU CAN EXPECT SOME THUNDERSTORMS",
+        "0257": "A RARE FUNGUS ATTACKS WHEAT IN ARIZONA",
+        "0258": "THE AGGRESSIVE STRATEGY IS THREATENING TO TURN INTO A PRESIDENTIAL CAMPAIGN ISSUE",
+        "0259": "I THINK THIS IS AN INVESTMENT FOR MOST AMERICANS",
+        "0260": "IT APPEARS TO HAVE FEW DRAWBACKS",
+        "0261": "ANOTHER BATTLE IS LOOMING BETWEEN THE WHITE HOUSE AND THE REPUBLICAN CONGRESS",
+        "0262": "SOME FOLKS FINALLY FOUND THEIR BAGGAGE",
+        "0263": "YOU ADD THAT TO AN ALREADY VIBRANT SERVICES SECTOR",
+        "0264": "BOTH THE UNION AND MANAGEMENT ARE TALKING TOUGH",
+        "0265": "KEEP IN MIND THIS HAPPENED YESTERDAY",
+        "0266": "THEY COMPLETED FULL FIELD BACKGROUND INVESTIGATIONS",
+        "0267": "THEY WERE IN NEW ENGLAND",
+        "0268": "I DO EVERYTHING I CAN TO MAKE IT",
+        "0269": "THE PROSECUTOR SAID HE WAS DISAPPOINTED WITH THE DECISION",
+        "0270": "THOSE FILES HAVE BEEN RETURNED",
+        "0271": "WE TURN FROM THAT LOVELY STORY TO OUR CONSIDERATION OF A FLASHER",
+        "0272": "SO YOUR THEORY IS THIS FROG HAS BEEN JUMPING A LOT",
+        "0273": "THEN THERE'S THE SUMMER AND GETTING BACK TO OUR OLD WAYS",
+        "0274": "WE ANTICIPATE HAVING THOSE CUSTOMERS BACK THIS EVENING",
+        "0275": "IMPLANTABLE HEART PACEMAKERS CAN BE SLOWED DOWN, SPED UP, OR STOPPED ALTOGETHER",
+        "0276": "TRAVELING AT THESE SPEEDS REQUIRES QUICK DECISION MAKING",
+        "0277": "ENERGY OFFICIALS SAY AN INTERCONNECTED SYSTEM MAKES FOR MORE EFFICIENT USE OF NATURAL RESOURCES",
+        "0278": "THERE IS SOME NASTY WEATHER IN THE MIDWEST",
+        "0279": "WE ARE EXPECTING THE NEWS CONFERENCE",
+        "0280": "THEY CAN HAVE DIFFERENT MESSAGES IN DIFFERENT COUNTRIES",
+        "0281": "I CANNOT REMEMBER WHICH ONE",
+        "0282": "THE CENTER OF THE EARTH IS VERY HOT",
+        "0283": "I'VE BEEN THERE AND I CAN SEE WHAT A CHILD CAN GO THROUGH",
+        "0284": "REPUBLICANS FIND THE DISCOVERY MORE TANTALIZING",
+        "0285": "CELEBRITIES AND LABOR LEADERS JOIN FORCES TODAY",
+        "0286": "IT WAS A QUESTION OF INTEGRITY",
+        "0287": "THE COURT'S DECISION IS INSULTING TO THE VOTER",
+        "0288": "IN FACT, SHE DOESN'T EVEN WORK THERE",
+        "0289": "GANGS OF STREET FIGHTERS ARE OUT OF CONTROL",
+        "0290": "I AM WORKING AWAY AND HAVING A GOOD TIME",
+        "0291": "WHEN SHE'S NOT WATCHING THE SOAPS, SHE WORKS AS A FREELANCE WRITER",
+        "0292": "THE VICTIM'S FATHER SPOKE THROUGH AN INTERPRETER",
+        "0293": "HE BECAME A SUSPECT",
+        "0294": "I'M TOO OLD FOR THAT",
+        "0295": "IT IS A HUMANITARIAN RESOLUTION AND IT HAVE AN HUMANITARIAN OBJECTIVE",
+        "0296": "WE HAVE BECOME PLAYERS IN THE OPENING ACT OF THE PRESIDENTIAL CAMPAIGN",
+        "0297": "THAT'S NONE OF YOUR BUSINESS",
+        "0298": "THE EXTENDED FAMILY OF THE MILITARY FELT THE AFTER SHOCKS",
+        "0299": "RECENT NAVAL ACADEMY GRADUATIONS WERE HELD UNDER STORMY SKIES",
+        "0300": "THE LATEST NEW YORK TIMES POLL IS OUT",
+        "0301": "YOU MUST REMEMBER THAT CONSTRUCTIVE CRITICISM WILL MAKE US STRONGER",
+        "0302": "THE OUTAGES WERE APPARENTLY CAUSED BY SYSTEM FAILURE NOT SABOTAGE",
+        "0303": "AGENCY MANAGERS SAY TEMPORARY WORKERS ARE VALUABLE",
+        "0304": "HE SUCCEEDED IN DOING THAT WITH A VENGEANCE",
+        "0305": "THEY EVEN KNEW THAT THEY WERE RUNNING INTO THE MOUNTAIN",
+        "0306": "THE STATE OF FLORIDA HAS A TOUGH POLICY AGAINST AMBULANCE CHASING",
+        "0307": "THE CONVICTED MURDERER HAS AVOIDED EXECUTION BY LODGING REPEATED APPEALS",
+        "0308": "MANY STATES DEVISE SOLUTIONS TO PROBLEMS OF WELFARE AND HEALTH CARE",
+        "0309": "THE PENTAGON ADMITS INTERNET ATTACKERS ARE AN INCREASING THREAT TO COMPUTERS",
+        "0310": "WHAT FOLLOWS IS AN OLD STORY MORE THAN FORTY YEARS OLD",
+        "0311": "NURSING HOMES ARE HEAVILY REGULATED BY BOTH THE STATE AND FEDERAL GOVERNMENT",
+        "0312": "SOMETIMES THE ONLY APPROPRIATE DEFENSE MECHANISM IS HUMOR",
+        "0313": "DIVERS SEARCHED THE CRATER THAT APPEARS TO BE THE MAIN IMPACT POINT",
+        "0314": "WELL YOU'RE NOT LIKE A DRAGON AT ALL",
+        "0315": "THESE MEN ARE LOOKING AND LISTENING FOR LEAKS IN WATER PIPELINES",
+        "0316": "HE IS TRYING TO CUT SOME OF THE BENEFITS",
+        "0317": "MY GOAL THERE IS TO ENFORCE LAW AND NOT HAVE ANYBODY GET HURT",
+        "0318": "I DON'T REALLY REMEMBER SEEING THE FIRST LADY THAT DAY",
+        "0319": "THEY GOT A HELPING HAND UP WITH AFFIRMATIVE ACTION",
+        "0320": "THAT'S BILL WITH HIS HOLIDAY SWIM WEAR COLLECTION",
+        "0321": "YOU MUST REMEMBER THAT CONSTRUCTIVE CRITICISM WILL MAKE US STRONGER",
+        "0322": "THE OUTAGES WERE APPARENTLY CAUSED BY SYSTEM FAILURE NOT SABOTAGE",
+        "0323": "AGENCY MANAGERS SAY TEMPORARY WORKERS ARE VALUABLE",
+        "0324": "HE SUCCEEDED IN DOING THAT WITH A VENGEANCE",
+        "0325": "THEY EVEN KNEW THAT THEY WERE RUNNING INTO THE MOUNTAIN",
+        "0326": "THE STATE OF FLORIDA HAS A TOUGH POLICY AGAINST AMBULANCE CHASING",
+        "0327": "THE CONVICTED MURDERER HAS AVOIDED EXECUTION BY LODGING REPEATED APPEALS",
+        "0328": "MANY STATES DEVISE SOLUTIONS TO PROBLEMS OF WELFARE AND HEALTH CARE",
+        "0329": "THE PENTAGON ADMITS INTERNET ATTACKERS ARE AN INCREASING THREAT TO COMPUTERS",
+        "0330": "WHAT FOLLOWS IS AN OLD STORY MORE THAN FORTY YEARS OLD",
+        "0331": "NURSING HOMES ARE HEAVILY REGULATED BY BOTH THE STATE AND FEDERAL GOVERNMENT",
+        "0332": "SOMETIMES THE ONLY APPROPRIATE DEFENSE MECHANISM IS HUMOR",
+        "0333": "DIVERS SEARCHED THE CRATER THAT APPEARS TO BE THE MAIN IMPACT POINT",
+        "0334": "WELL YOU'RE NOT LIKE A DRAGON AT ALL",
+        "0335": "THESE MEN ARE LOOKING AND LISTENING FOR LEAKS IN WATER PIPELINES",
+        "0336": "HE IS TRYING TO CUT SOME OF THE BENEFITS",
+        "0337": "MY GOAL THERE IS TO ENFORCE LAW AND NOT HAVE ANYBODY GET HURT",
+        "0338": "I DON'T REALLY REMEMBER SEEING THE FIRST LADY THAT DAY",
+        "0339": "THEY GOT A HELPING HAND UP WITH AFFIRMATIVE ACTION",
+        "0340": "THAT'S BILL WITH HIS HOLIDAY SWIM WEAR COLLECTION"
+    },
+    "recordingTimestamps": [
+        [
+            "0130",
+            1579866397.156538
+        ],
+        [
+            "0170",
+            1579866427.975004
+        ],
+        [
+            "0034",
+            1579866435.5490763
+        ],
+        [
+            "0240",
+            1579866444.4597266
+        ],
+        [
+            "0165",
+            1579866450.6707757
+        ],
+        [
+            "0327",
+            1579866484.3519523
+        ],
+        [
+            "0036",
+            1579866493.5829318
+        ],
+        [
+            "0141",
+            1579866503.5560813
+        ],
+        [
+            "0070",
+            1579866540.8547275
+        ],
+        [
+            "0333",
+            1579866563.2867975
+        ],
+        [
+            "0200",
+            1579866572.5627968
+        ],
+        [
+            "0011",
+            1579866794.6549869
+        ],
+        [
+            "0059",
+            1579866803.6788394
+        ],
+        [
+            "0173",
+            1579866811.9585726
+        ],
+        [
+            "0053",
+            1579866817.7665758
+        ],
+        [
+            "0323",
+            1579866824.758705
+        ],
+        [
+            "0107",
+            1579866835.3746047
+        ],
+        [
+            "0051",
+            1579866846.2585964
+        ],
+        [
+            "0228",
+            1579866855.850111
+        ],
+        [
+            "0096",
+            1579866860.2625744
+        ],
+        [
+            "0124",
+            1579866868.9578087
+        ],
+        [
+            "0221",
+            1579866876.0481405
+        ],
+        [
+            "0204",
+            1579866888.1565342
+        ],
+        [
+            "0180",
+            1579866898.5025227
+        ],
+        [
+            "0287",
+            1579866905.3585224
+        ],
+        [
+            "0016",
+            1579866915.7026136
+        ],
+        [
+            "0055",
+            1579866924.5666635
+        ],
+        [
+            "0071",
+            1579866929.6786597
+        ],
+        [
+            "0300",
+            1579866947.7522972
+        ],
+        [
+            "0102",
+            1579866956.0488846
+        ],
+        [
+            "0020",
+            1579866970.566655
+        ],
+        [
+            "0075",
+            1579866980.1666994
+        ],
+        [
+            "0252",
+            1579866985.9105783
+        ],
+        [
+            "0226",
+            1579866994.8787074
+        ],
+        [
+            "0305",
+            1579867005.1552665
+        ],
+        [
+            "0029",
+            1579867012.8545969
+        ],
+        [
+            "0261",
+            1579867036.9574873
+        ],
+        [
+            "0282",
+            1579867051.7989445
+        ],
+        [
+            "0111",
+            1579867059.9986699
+        ],
+        [
+            "0313",
+            1579867070.6545265
+        ],
+        [
+            "0260",
+            1579867077.9510636
+        ],
+        [
+            "0025",
+            1579867086.5747428
+        ],
+        [
+            "0012",
+            1579867095.806644
+        ],
+        [
+            "0224",
+            1579867101.1987224
+        ],
+        [
+            "0230",
+            1579867110.366576
+        ],
+        [
+            "0328",
+            1579867118.5108807
+        ],
+        [
+            "0315",
+            1579867139.2868176
+        ],
+        [
+            "0058",
+            1579867148.5827968
+        ],
+        [
+            "0262",
+            1579867154.5935504
+        ],
+        [
+            "0184",
+            1579867160.6726854
+        ],
+        [
+            "0193",
+            1579867169.157604
+        ],
+        [
+            "0297",
+            1579867173.902616
+        ],
+        [
+            "0041",
+            1579867178.8534796
+        ],
+        [
+            "0105",
+            1579867188.6066089
+        ],
+        [
+            "0298",
+            1579867197.174598
+        ],
+        [
+            "0081",
+            1579867205.2491045
+        ],
+        [
+            "0079",
+            1579867214.1987054
+        ],
+        [
+            "0273",
+            1579867223.1525154
+        ],
+        [
+            "0269",
+            1579867232.1105688
+        ],
+        [
+            "0064",
+            1579867239.990768
+        ],
+        [
+            "0065",
+            1579867245.8947394
+        ],
+        [
+            "0024",
+            1579867250.953508
+        ],
+        [
+            "0067",
+            1579867257.8487988
+        ],
+        [
+            "0336",
+            1579867266.7826505
+        ],
+        [
+            "0255",
+            1579867273.37462
+        ],
+        [
+            "0136",
+            1579867278.782586
+        ],
+        [
+            "0310",
+            1579867283.5633101
+        ],
+        [
+            "0216",
+            1579867292.0707958
+        ],
+        [
+            "0035",
+            1579867329.174623
+        ],
+        [
+            "0162",
+            1579867338.4705968
+        ],
+        [
+            "0013",
+            1579867344.3599734
+        ],
+        [
+            "0210",
+            1579867352.1988583
+        ],
+        [
+            "0235",
+            1579867372.5667133
+        ],
+        [
+            "0099",
+            1579867384.4707925
+        ],
+        [
+            "0241",
+            1579867390.10266
+        ],
+        [
+            "0243",
+            1579867397.2946546
+        ],
+        [
+            "0206",
+            1579867404.878795
+        ],
+        [
+            "0202",
+            1579867439.963126
+        ],
+        [
+            "0148",
+            1579867446.9609616
+        ],
+        [
+            "0183",
+            1579867455.974589
+        ],
+        [
+            "0267",
+            1579867461.56258
+        ],
+        [
+            "0115",
+            1579867468.2706277
+        ],
+        [
+            "0246",
+            1579867475.654593
+        ],
+        [
+            "0044",
+            1579867481.4588037
+        ],
+        [
+            "0334",
+            1579867488.858598
+        ],
+        [
+            "0332",
+            1579867496.551195
+        ],
+        [
+            "0276",
+            1579867517.198773
+        ],
+        [
+            "0103",
+            1579867523.7906156
+        ],
+        [
+            "0123",
+            1579867529.5906253
+        ],
+        [
+            "0215",
+            1579867570.886578
+        ],
+        [
+            "0009",
+            1579867578.4786632
+        ],
+        [
+            "0098",
+            1579867585.9746506
+        ],
+        [
+            "0005",
+            1579867591.870694
+        ],
+        [
+            "0073",
+            1579867600.7026308
+        ],
+        [
+            "0301",
+            1579867610.0551817
+        ],
+        [
+            "0181",
+            1579867619.0706038
+        ],
+        [
+            "0238",
+            1579867626.3540578
+        ],
+        [
+            "0237",
+            1579867634.053323
+        ],
+        [
+            "0288",
+            1579867644.6537008
+        ],
+        [
+            "0076",
+            1579867654.0947025
+        ],
+        [
+            "0027",
+            1579867674.894672
+        ],
+        [
+            "0311",
+            1579867683.6569145
+        ],
+        [
+            "0007",
+            1579867709.3666918
+        ],
+        [
+            "0207",
+            1579867716.854594
+        ],
+        [
+            "0192",
+            1579867722.8586724
+        ],
+        [
+            "0231",
+            1579867740.785703
+        ],
+        [
+            "0283",
+            1579867751.8865755
+        ],
+        [
+            "0063",
+            1579867758.9105551
+        ],
+        [
+            "0003",
+            1579867769.0528975
+        ],
+        [
+            "0110",
+            1579867780.2571754
+        ],
+        [
+            "0329",
+            1579867791.1107585
+        ],
+        [
+            "0248",
+            1579867800.653873
+        ],
+        [
+            "0318",
+            1579867809.0065055
+        ],
+        [
+            "0137",
+            1579867814.8604498
+        ],
+        [
+            "0306",
+            1579867820.7707229
+        ],
+        [
+            "0159",
+            1579867828.3026037
+        ],
+        [
+            "0018",
+            1579867833.4707232
+        ],
+        [
+            "0339",
+            1579867842.1585155
+        ],
+        [
+            "0280",
+            1579867851.35813
+        ],
+        [
+            "0128",
+            1579867860.8706045
+        ],
+        [
+            "0296",
+            1579867870.458969
+        ],
+        [
+            "0104",
+            1579867876.8570411
+        ],
+        [
+            "0266",
+            1579867886.9105713
+        ],
+        [
+            "0155",
+            1579867893.4536045
+        ],
+        [
+            "0236",
+            1579867900.6583085
+        ],
+        [
+            "0117",
+            1579867909.7827077
+        ],
+        [
+            "0191",
+            1579867920.3722992
+        ],
+        [
+            "0168",
+            1579867928.664603
+        ],
+        [
+            "0154",
+            1579867935.5633783
+        ],
+        [
+            "0022",
+            1579867960.4625993
+        ],
+        [
+            "0185",
+            1579867969.807015
+        ],
+        [
+            "0118",
+            1579867981.5540588
+        ],
+        [
+            "0048",
+            1579867989.3107696
+        ],
+        [
+            "0303",
+            1579867994.7664697
+        ],
+        [
+            "0037",
+            1579868008.5495532
+        ],
+        [
+            "0083",
+            1579868016.366547
+        ],
+        [
+            "0100",
+            1579868024.6864405
+        ],
+        [
+            "0039",
+            1579868039.7984803
+        ],
+        [
+            "0122",
+            1579868045.256175
+        ],
+        [
+            "0142",
+            1579868053.6704388
+        ],
+        [
+            "0014",
+            1579868059.9826858
+        ],
+        [
+            "0239",
+            1579868067.9824421
+        ],
+        [
+            "0050",
+            1579868076.0500019
+        ],
+        [
+            "0049",
+            1579868101.0946262
+        ],
+        [
+            "0160",
+            1579868108.5984359
+        ],
+        [
+            "0072",
+            1579868116.659132
+        ],
+        [
+            "0299",
+            1579868124.9585116
+        ],
+        [
+            "0172",
+            1579868133.5025017
+        ],
+        [
+            "0151",
+            1579868142.154258
+        ],
+        [
+            "0320",
+            1579868148.1986804
+        ],
+        [
+            "0312",
+            1579868155.1104474
+        ],
+        [
+            "0156",
+            1579868163.156645
+        ],
+        [
+            "0331",
+            1579868171.449752
+        ],
+        [
+            "0078",
+            1579868179.855236
+        ],
+        [
+            "0245",
+            1579868228.6944454
+        ],
+        [
+            "0326",
+            1579868235.651042
+        ],
+        [
+            "0289",
+            1579868244.955448
+        ],
+        [
+            "0340",
+            1579868251.8944685
+        ],
+        [
+            "0176",
+            1579868260.4549139
+        ],
+        [
+            "0205",
+            1579868266.5597548
+        ],
+        [
+            "0145",
+            1579868272.561328
+        ],
+        [
+            "0337",
+            1579868279.4785538
+        ],
+        [
+            "0030",
+            1579868465.3903494
+        ],
+        [
+            "0131",
+            1579868475.9903834
+        ],
+        [
+            "0101",
+            1579868527.253154
+        ],
+        [
+            "0163",
+            1579868535.5663028
+        ],
+        [
+            "0139",
+            1579868544.2514868
+        ],
+        [
+            "0113",
+            1579868552.4520335
+        ],
+        [
+            "0187",
+            1579868562.4062893
+        ],
+        [
+            "0307",
+            1579868584.7102687
+        ],
+        [
+            "0257",
+            1579868595.198428
+        ],
+        [
+            "0094",
+            1579868603.6570375
+        ],
+        [
+            "0085",
+            1579868610.0623288
+        ],
+        [
+            "0062",
+            1579868622.5022726
+        ],
+        [
+            "0149",
+            1579868632.294326
+        ],
+        [
+            "0259",
+            1579868646.5533395
+        ],
+        [
+            "0218",
+            1579868656.558317
+        ],
+        [
+            "0223",
+            1579868704.7795913
+        ],
+        [
+            "0225",
+            1579868720.2862482
+        ],
+        [
+            "0161",
+            1579868730.158298
+        ],
+        [
+            "0174",
+            1579868736.2622004
+        ],
+        [
+            "0278",
+            1579868742.7023435
+        ],
+        [
+            "0047",
+            1579868748.4487274
+        ],
+        [
+            "0277",
+            1579868770.459477
+        ],
+        [
+            "0194",
+            1579868785.4782085
+        ],
+        [
+            "0309",
+            1579868822.0062723
+        ],
+        [
+            "0046",
+            1579868831.4942522
+        ],
+        [
+            "0031",
+            1579868842.0062532
+        ],
+        [
+            "0265",
+            1579868893.4774914
+        ],
+        [
+            "0175",
+            1579868899.1821947
+        ],
+        [
+            "0253",
+            1579868917.0189674
+        ],
+        [
+            "0264",
+            1579868925.7623413
+        ],
+        [
+            "0089",
+            1579868944.1535857
+        ],
+        [
+            "0106",
+            1579868953.4863784
+        ],
+        [
+            "0222",
+            1579868960.4863567
+        ],
+        [
+            "0324",
+            1579868969.9604647
+        ],
+        [
+            "0088",
+            1579868978.052658
+        ],
+        [
+            "0212",
+            1579868989.6561465
+        ],
+        [
+            "0263",
+            1579868998.352553
+        ],
+        [
+            "0153",
+            1579869008.0568442
+        ],
+        [
+            "0042",
+            1579869041.8703187
+        ],
+        [
+            "0082",
+            1579869048.649124
+        ],
+        [
+            "0294",
+            1579869054.1562254
+        ],
+        [
+            "0125",
+            1579869060.0781996
+        ],
+        [
+            "0338",
+            1579869066.470207
+        ],
+        [
+            "0090",
+            1579869074.7532854
+        ],
+        [
+            "0152",
+            1579869083.9504373
+        ],
+        [
+            "0198",
+            1579869092.9581661
+        ],
+        [
+            "0254",
+            1579869101.894285
+        ],
+        [
+            "0232",
+            1579869109.478143
+        ],
+        [
+            "0167",
+            1579869147.470167
+        ],
+        [
+            "0091",
+            1579869159.1664832
+        ],
+        [
+            "0134",
+            1579869169.278285
+        ],
+        [
+            "0166",
+            1579869177.752439
+        ],
+        [
+            "0127",
+            1579869188.2554626
+        ],
+        [
+            "0086",
+            1579869193.3742325
+        ],
+        [
+            "0234",
+            1579869200.7531037
+        ],
+        [
+            "0120",
+            1579869207.462305
+        ],
+        [
+            "0308",
+            1579869216.3562694
+        ],
+        [
+            "0201",
+            1579869226.95389
+        ],
+        [
+            "0017",
+            1579869236.3662076
+        ],
+        [
+            "0314",
+            1579869244.256802
+        ],
+        [
+            "0197",
+            1579869250.7901967
+        ],
+        [
+            "0109",
+            1579869271.406305
+        ],
+        [
+            "0203",
+            1579869285.5536356
+        ],
+        [
+            "0052",
+            1579869302.4555902
+        ],
+        [
+            "0319",
+            1579869310.2199721
+        ],
+        [
+            "0114",
+            1579869316.8542113
+        ],
+        [
+            "0220",
+            1579869325.054028
+        ],
+        [
+            "0292",
+            1579869338.4782872
+        ],
+        [
+            "0080",
+            1579869347.0525908
+        ],
+        [
+            "0275",
+            1579869374.6946068
+        ],
+        [
+            "0249",
+            1579869383.0621316
+        ],
+        [
+            "0157",
+            1579869388.8524137
+        ],
+        [
+            "0015",
+            1579869394.006318
+        ],
+        [
+            "0095",
+            1579869400.2185566
+        ],
+        [
+            "0233",
+            1579869408.9821665
+        ],
+        [
+            "0244",
+            1579869415.8701384
+        ],
+        [
+            "0138",
+            1579869421.952134
+        ],
+        [
+            "0092",
+            1579869429.5823953
+        ],
+        [
+            "0054",
+            1579869439.2862828
+        ],
+        [
+            "0189",
+            1579869446.3981712
+        ],
+        [
+            "0002",
+            1579869454.89416
+        ],
+        [
+            "0186",
+            1579869464.1562674
+        ],
+        [
+            "0066",
+            1579869470.9743254
+        ],
+        [
+            "0293",
+            1579869475.3053882
+        ],
+        [
+            "0074",
+            1579869491.1741698
+        ],
+        [
+            "0213",
+            1579869500.5741851
+        ],
+        [
+            "0084",
+            1579869507.1581297
+        ],
+        [
+            "0268",
+            1579869512.7552032
+        ],
+        [
+            "0028",
+            1579869521.3502412
+        ],
+        [
+            "0325",
+            1579869549.9571576
+        ],
+        [
+            "0304",
+            1579869556.1592329
+        ],
+        [
+            "0010",
+            1579869565.2781656
+        ],
+        [
+            "0164",
+            1579869574.9102378
+        ],
+        [
+            "0006",
+            1579869588.9102392
+        ],
+        [
+            "0250",
+            1579869600.7023118
+        ],
+        [
+            "0119",
+            1579869608.650034
+        ],
+        [
+            "0150",
+            1579869616.086193
+        ],
+        [
+            "0196",
+            1579869626.8621402
+        ],
+        [
+            "0026",
+            1579869638.3823643
+        ],
+        [
+            "0112",
+            1579869651.6535933
+        ],
+        [
+            "0335",
+            1579869659.5741205
+        ],
+        [
+            "0068",
+            1579869668.5982842
+        ],
+        [
+            "0043",
+            1579869677.5495234
+        ],
+        [
+            "0108",
+            1579869685.3538785
+        ],
+        [
+            "0270",
+            1579869694.7563953
+        ],
+        [
+            "0219",
+            1579869700.294218
+        ],
+        [
+            "0316",
+            1579869705.4571948
+        ],
+        [
+            "0284",
+            1579869710.462132
+        ],
+        [
+            "0190",
+            1579869719.194267
+        ],
+        [
+            "0045",
+            1579869724.670101
+        ],
+        [
+            "0135",
+            1579869731.310257
+        ],
+        [
+            "0143",
+            1579869736.9938107
+        ],
+        [
+            "0330",
+            1579869743.99009
+        ],
+        [
+            "0147",
+            1579869752.5981514
+        ],
+        [
+            "0158",
+            1579869768.558973
+        ],
+        [
+            "0169",
+            1579869774.8861108
+        ],
+        [
+            "0271",
+            1579869785.0620825
+        ],
+        [
+            "0087",
+            1579869802.5582194
+        ],
+        [
+            "0214",
+            1579869810.4494822
+        ],
+        [
+            "0132",
+            1579869819.310158
+        ],
+        [
+            "0077",
+            1579869828.5982766
+        ],
+        [
+            "0019",
+            1579869834.7524452
+        ],
+        [
+            "0295",
+            1579869876.0493822
+        ],
+        [
+            "0121",
+            1579869887.5580926
+        ],
+        [
+            "0032",
+            1579869895.2700992
+        ],
+        [
+            "0211",
+            1579869900.0061204
+        ],
+        [
+            "0060",
+            1579869908.606262
+        ],
+        [
+            "0302",
+            1579869919.2540538
+        ],
+        [
+            "0038",
+            1579869928.4607246
+        ],
+        [
+            "0227",
+            1579869942.9740686
+        ],
+        [
+            "0021",
+            1579869952.3903716
+        ],
+        [
+            "0217",
+            1579869962.366214
+        ],
+        [
+            "0033",
+            1579869970.8540454
+        ],
+        [
+            "0126",
+            1579869982.398312
+        ],
+        [
+            "0146",
+            1579869990.3558166
+        ],
+        [
+            "0188",
+            1579869996.7020478
+        ],
+        [
+            "0056",
+            1579870003.6620238
+        ],
+        [
+            "0291",
+            1579870013.9567673
+        ],
+        [
+            "0069",
+            1579870027.198243
+        ],
+        [
+            "0322",
+            1579870035.9742374
+        ],
+        [
+            "0057",
+            1579870045.0207748
+        ],
+        [
+            "0208",
+            1579870052.5580304
+        ],
+        [
+            "0182",
+            1579870062.8862157
+        ],
+        [
+            "0001",
+            1579870071.8140426
+        ],
+        [
+            "0097",
+            1579870080.470024
+        ],
+        [
+            "0274",
+            1579870087.7580686
+        ],
+        [
+            "0290",
+            1579870095.7100368
+        ],
+        [
+            "0116",
+            1579870116.3543882
+        ],
+        [
+            "0177",
+            1579870123.849577
+        ],
+        [
+            "0281",
+            1579870130.7022202
+        ],
+        [
+            "0272",
+            1579870137.405999
+        ],
+        [
+            "0258",
+            1579870148.4516351
+        ],
+        [
+            "0286",
+            1579870157.8540423
+        ],
+        [
+            "0195",
+            1579870163.4061728
+        ],
+        [
+            "0179",
+            1579870168.5651298
+        ],
+        [
+            "0133",
+            1579870177.853739
+        ],
+        [
+            "0171",
+            1579870189.174045
+        ],
+        [
+            "0023",
+            1579870200.1821587
+        ],
+        [
+            "0140",
+            1579870215.7101452
+        ],
+        [
+            "0321",
+            1579870274.3593974
+        ],
+        [
+            "0199",
+            1579870281.460678
+        ],
+        [
+            "0040",
+            1579870292.389969
+        ],
+        [
+            "0251",
+            1579870299.5579453
+        ],
+        [
+            "0129",
+            1579870308.0140085
+        ],
+        [
+            "0247",
+            1579870317.6597347
+        ],
+        [
+            "0061",
+            1579870327.5900178
+        ],
+        [
+            "0285",
+            1579870338.2499435
+        ],
+        [
+            "0242",
+            1579870346.7593982
+        ],
+        [
+            "0178",
+            1579870353.502047
+        ],
+        [
+            "0256",
+            1579870359.1562853
+        ],
+        [
+            "0004",
+            1579870371.7549322
+        ],
+        [
+            "0229",
+            1579870388.95799
+        ],
+        [
+            "0093",
+            1579870398.462039
+        ],
+        [
+            "0144",
+            1579870406.7549853
+        ],
+        [
+            "0008",
+            1579870415.293963
+        ],
+        [
+            "0317",
+            1579870431.7578838
+        ],
+        [
+            "0209",
+            1579870440.7979755
+        ],
+        [
+            "0279",
+            1579870447.9489532
+        ]
+    ],
+    "session": "Spk1",
+    "speaker": "Spk1",
+    "uttSets": {
+        "dev": [
+            "0251",
+            "0252",
+            "0253",
+            "0254",
+            "0255",
+            "0256",
+            "0257",
+            "0258",
+            "0259",
+            "0260",
+            "0261",
+            "0262",
+            "0263",
+            "0264",
+            "0265",
+            "0266",
+            "0267",
+            "0268",
+            "0269",
+            "0270",
+            "0271",
+            "0272",
+            "0273",
+            "0274",
+            "0275",
+            "0276",
+            "0277",
+            "0278",
+            "0279",
+            "0280",
+            "0281",
+            "0282",
+            "0283",
+            "0284",
+            "0285",
+            "0286",
+            "0287",
+            "0288",
+            "0289",
+            "0290",
+            "0291",
+            "0292",
+            "0293",
+            "0294",
+            "0295",
+            "0296",
+            "0297",
+            "0298",
+            "0299",
+            "0300"
+        ],
+        "eval": [
+            "0301",
+            "0302",
+            "0303",
+            "0304",
+            "0305",
+            "0306",
+            "0307",
+            "0308",
+            "0309",
+            "0310",
+            "0311",
+            "0312",
+            "0313",
+            "0314",
+            "0315",
+            "0316",
+            "0317",
+            "0318",
+            "0319",
+            "0320",
+            "0321",
+            "0322",
+            "0323",
+            "0324",
+            "0325",
+            "0326",
+            "0327",
+            "0328",
+            "0329",
+            "0330",
+            "0331",
+            "0332",
+            "0333",
+            "0334",
+            "0335",
+            "0336",
+            "0337",
+            "0338",
+            "0339",
+            "0340"
+        ],
+        "train": [
+            "0001",
+            "0002",
+            "0003",
+            "0004",
+            "0005",
+            "0006",
+            "0007",
+            "0008",
+            "0009",
+            "0010",
+            "0011",
+            "0012",
+            "0013",
+            "0014",
+            "0015",
+            "0016",
+            "0017",
+            "0018",
+            "0019",
+            "0020",
+            "0021",
+            "0022",
+            "0023",
+            "0024",
+            "0025",
+            "0026",
+            "0027",
+            "0028",
+            "0029",
+            "0030",
+            "0031",
+            "0032",
+            "0033",
+            "0034",
+            "0035",
+            "0036",
+            "0037",
+            "0038",
+            "0039",
+            "0040",
+            "0041",
+            "0042",
+            "0043",
+            "0044",
+            "0045",
+            "0046",
+            "0047",
+            "0048",
+            "0049",
+            "0050",
+            "0051",
+            "0052",
+            "0053",
+            "0054",
+            "0055",
+            "0056",
+            "0057",
+            "0058",
+            "0059",
+            "0060",
+            "0061",
+            "0062",
+            "0063",
+            "0064",
+            "0065",
+            "0066",
+            "0067",
+            "0068",
+            "0069",
+            "0070",
+            "0071",
+            "0072",
+            "0073",
+            "0074",
+            "0075",
+            "0076",
+            "0077",
+            "0078",
+            "0079",
+            "0080",
+            "0081",
+            "0082",
+            "0083",
+            "0084",
+            "0085",
+            "0086",
+            "0087",
+            "0088",
+            "0089",
+            "0090",
+            "0091",
+            "0092",
+            "0093",
+            "0094",
+            "0095",
+            "0096",
+            "0097",
+            "0098",
+            "0099",
+            "0100",
+            "0101",
+            "0102",
+            "0103",
+            "0104",
+            "0105",
+            "0106",
+            "0107",
+            "0108",
+            "0109",
+            "0110",
+            "0111",
+            "0112",
+            "0113",
+            "0114",
+            "0115",
+            "0116",
+            "0117",
+            "0118",
+            "0119",
+            "0120",
+            "0121",
+            "0122",
+            "0123",
+            "0124",
+            "0125",
+            "0126",
+            "0127",
+            "0128",
+            "0129",
+            "0130",
+            "0131",
+            "0132",
+            "0133",
+            "0134",
+            "0135",
+            "0136",
+            "0137",
+            "0138",
+            "0139",
+            "0140",
+            "0141",
+            "0142",
+            "0143",
+            "0144",
+            "0145",
+            "0146",
+            "0147",
+            "0148",
+            "0149",
+            "0150",
+            "0151",
+            "0152",
+            "0153",
+            "0154",
+            "0155",
+            "0156",
+            "0157",
+            "0158",
+            "0159",
+            "0160",
+            "0161",
+            "0162",
+            "0163",
+            "0164",
+            "0165",
+            "0166",
+            "0167",
+            "0168",
+            "0169",
+            "0170",
+            "0171",
+            "0172",
+            "0173",
+            "0174",
+            "0175",
+            "0176",
+            "0177",
+            "0178",
+            "0179",
+            "0180",
+            "0181",
+            "0182",
+            "0183",
+            "0184",
+            "0185",
+            "0186",
+            "0187",
+            "0188",
+            "0189",
+            "0190",
+            "0191",
+            "0192",
+            "0193",
+            "0194",
+            "0195",
+            "0196",
+            "0197",
+            "0198",
+            "0199",
+            "0200",
+            "0201",
+            "0202",
+            "0203",
+            "0204",
+            "0205",
+            "0206",
+            "0207",
+            "0208",
+            "0209",
+            "0210",
+            "0211",
+            "0212",
+            "0213",
+            "0214",
+            "0215",
+            "0216",
+            "0217",
+            "0218",
+            "0219",
+            "0220",
+            "0221",
+            "0222",
+            "0223",
+            "0224",
+            "0225",
+            "0226",
+            "0227",
+            "0228",
+            "0229",
+            "0230",
+            "0231",
+            "0232",
+            "0233",
+            "0234",
+            "0235",
+            "0236",
+            "0237",
+            "0238",
+            "0239",
+            "0240",
+            "0241",
+            "0242",
+            "0243",
+            "0244",
+            "0245",
+            "0246",
+            "0247",
+            "0248",
+            "0249",
+            "0250"
+        ]
+    }
+}
