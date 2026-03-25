@@ -60,13 +60,12 @@ def calculate_metrics(embeddings, labels):
         
     return sil, drift, cosine_sim
 
-def run_analysis():
+def run_analysis(speaker="Spk1"):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"🚀 Starting Latent Analysis on {device}...")
 
     # Config
     processed_dir = "CSL-EMG_Processed"
-    speaker = "Spk1"
     blocks = ["Block1-Initial", "Block3-Eval1", "Block7-Eval3"]
     
     all_embeddings_base = []
@@ -75,10 +74,10 @@ def run_analysis():
 
     # Load Models
     base_model = EMGBaselineModel().to(device)
-    base_model.load_state_dict(torch.load("baseline_model.pth", map_location=device))
+    base_model.load_state_dict(torch.load(f"models/{speaker}_baseline_model.pth", map_location=device))
     
     inv_model = EMGContrastiveModel().to(device)
-    inv_model.load_state_dict(torch.load("invariant_model.pth", map_location=device))
+    inv_model.load_state_dict(torch.load(f"models/{speaker}_invariant_model.pth", map_location=device))
 
     for idx, block in enumerate(blocks):
         # 🔥 Using split="eval" to ensure Blocks 3 and 7 are found
@@ -123,7 +122,18 @@ def run_analysis():
     print(f"{'Centroid Drift (↓)':<20} | {drift_b:>10.4f} | {drift_i:>10.4f}")
     print(f"{'Cosine Sim (↑)':<20} | {cos_b:>10.4f} | {cos_i:>10.4f}")
     print("="*40)
-
+    analysis_results = {
+        "baseline": {
+            "silhouette": float(sil_b),
+            "centroid_drift": float(drift_b),
+            "cosine_sim": float(cos_b)
+        },
+        "invariant": {
+            "silhouette": float(sil_i),
+            "centroid_drift": float(drift_i),
+            "cosine_sim": float(cos_i)
+        }
+    }
     # --- t-SNE Visualization ---
     print("🎨 Generating t-SNE plots...")
     tsne = TSNE(n_components=2, random_state=42, perplexity=min(30, len(labels)-1))
@@ -143,8 +153,8 @@ def run_analysis():
     ax[0].legend(); ax[1].legend()
     
     plt.tight_layout()
-    plt.savefig("visualisations/latent_drift_analysis.png", dpi=300)
+    plt.savefig(f"visualisations/{speaker}_latent_drift_analysis.png", dpi=300)
     print("✅ Analysis complete! Plot saved as 'latent_drift_analysis.png'")
-
+    return analysis_results
 if __name__ == "__main__":
     run_analysis()

@@ -40,7 +40,7 @@ def calculate_mcd_tensor(pred, target, lengths):
     # Average only the valid frames
     return mcd_frames[mask].mean().item()
 
-def evaluate_models(baseline_path="baseline_model.pth", invariant_path="invariant_model.pth"):
+def evaluate_models(baseline_path="baseline_model.pth", invariant_path="invariant_model.pth",speaker="Spk1"):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"📊 Running Evaluation on {device}")
     
@@ -48,16 +48,18 @@ def evaluate_models(baseline_path="baseline_model.pth", invariant_path="invarian
     baseline_model = EMGBaselineModel().to(device)
     baseline_model.load_state_dict(torch.load(baseline_path, map_location=device))
     baseline_model.eval()
+
     
     invariant_model = EMGContrastiveModel().to(device)
     invariant_model.load_state_dict(torch.load(invariant_path, map_location=device))
     invariant_model.eval()
 
     # The evaluation blocks defined in the CSL-EMG corpus
-    eval_blocks = ["Block3-Eval1", "Block5-Eval2", "Block7-Eval3"]
+    eval_blocks = ["Block1-Initial","Block3-Eval1", "Block5-Eval2", "Block7-Eval3"]
     
     baseline_scores = []
     invariant_scores = []
+    metrics_dict = {}
     
     print("="*65)
     print(f"{'Block':<15} | {'Baseline MCD':<15} | {'Invariant MCD':<15} | {'Improvement':<15}")
@@ -79,6 +81,7 @@ def evaluate_models(baseline_path="baseline_model.pth", invariant_path="invarian
         
         block_baseline_mcd = 0.0
         block_invariant_mcd = 0.0
+
         
         with torch.no_grad():
             for emg_batch, mfcc_batch, lengths in dataloader:
@@ -100,7 +103,10 @@ def evaluate_models(baseline_path="baseline_model.pth", invariant_path="invarian
         
         baseline_scores.append(avg_base)
         invariant_scores.append(avg_inv)
-        
+        metrics_dict[block] = {
+            "baseline_mcd": float(avg_base),
+            "invariant_mcd": float(avg_inv)
+        }        
         # Calculate how much the invariant model improved the score
         diff = avg_base - avg_inv
         improvement = f"-{diff:.3f}" if diff > 0 else f"+{abs(diff):.3f}"
@@ -111,9 +117,10 @@ def evaluate_models(baseline_path="baseline_model.pth", invariant_path="invarian
     
     # 2. Generate the Comparison Chart
     plot_results(eval_blocks, baseline_scores, invariant_scores)
+    return metrics_dict
 
 
-def plot_results(blocks, baseline_scores, invariant_scores):
+def plot_results(blocks, baseline_scores, invariant_scores, speaker="Spk1"):
     """Generates a line chart to visualize the domain shift and contrastive mitigation."""
     # Simplify labels for the X-axis (e.g., "Block1", "Block3")
     x_labels = [b.split('-')[0] for b in blocks]
@@ -138,10 +145,10 @@ def plot_results(blocks, baseline_scores, invariant_scores):
         plt.vlines(x=x[i], ymin=invariant_scores[i], ymax=baseline_scores[i], color='gray', alpha=0.3)
         
     plt.tight_layout()
-    plt.savefig('visualisations/mcd_comparison.png', dpi=300)
+    plt.savefig(f'visualisations/{speaker}_mcd_comparison.png', dpi=300)
     print("📈 Saved comparison chart to 'mcd_comparison.png'")
 
 
 if __name__ == "__main__":
     # Ensure both models have been trained and weights exist in the current directory
-    evaluate_models("baseline_model.pth", "invariant_model.pth")
+    evaluate_models("models/baseline_model.pth", "models/invariant_model.pth")

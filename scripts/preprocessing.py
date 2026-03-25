@@ -48,7 +48,7 @@ def preprocess_utterance(emg_path, audio_path):
 
     return emg_aligned, mfcc
 
-def process_dataset(raw_dir, out_dir, speaker="Spk1", blocks=None):
+def process_dataset(raw_dir, out_dir, speaker, blocks=None):
     """Iterates through the dataset, processes files, and saves them to a new directory."""
     
     if blocks is None:
@@ -67,14 +67,14 @@ def process_dataset(raw_dir, out_dir, speaker="Spk1", blocks=None):
         json_path = os.path.join(raw_dir, block_folder, "recordingLog.json")
         
         if not os.path.exists(json_path):
-            print(f"⚠️  Skipping {block_folder}: JSON not found.")
+            print(f"Skipping {block_folder}: JSON not found.")
             continue
             
         with open(json_path, 'r') as f:
             log_data = json.load(f)
             
         if "promptList" not in log_data:
-            print(f"⚠️  Skipping {block_folder}: 'promptList' missing from JSON.")
+            print(f"Skipping {block_folder}: 'promptList' missing from JSON.")
             continue
             
         print(f"⚙️  Processing {block_folder}...")
@@ -109,13 +109,13 @@ def process_dataset(raw_dir, out_dir, speaker="Spk1", blocks=None):
                 total_processed += 1
                 
             except Exception as e:
-                print(f"❌ Error processing {block_folder} ID {idx}: {e}")
+                print(f"Error processing {block_folder} ID {idx}: {e}")
 
-    print(f"✅ Preprocessing complete! {total_processed} utterances saved to {out_dir}/")
+    print(f"preprocessing complete! {total_processed} utterances saved to {out_dir}/")
 
 # --- Run the Script ---
 if __name__ == "__main__":
     RAW_DATA_PATH = "CSL-EMG_Array"
     PROCESSED_DATA_PATH = "CSL-EMG_Processed"
-    
-    process_dataset(raw_dir=RAW_DATA_PATH, out_dir=PROCESSED_DATA_PATH, speaker="Spk1")
+    for spk in ["Spk1","Spk2","Spk3","Spk4", "Spk5", "Spk6", "Spk7", "Spk8"]:
+        process_dataset(raw_dir=RAW_DATA_PATH, out_dir=PROCESSED_DATA_PATH, speaker=spk)

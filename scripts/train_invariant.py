@@ -11,14 +11,14 @@ from src.data.dataset_training import StandardEMGDataset, baseline_collate_fn
 from src.losses.contrastive import TripletContrastiveLoss
 
 
-def train_invariant_model(lambda_weight=0.5, batch_size=16, num_epochs=50, lr=1e-3):
+def train_invariant_model(lambda_weight=0.5, batch_size=16, num_epochs=50, lr=1e-3, speaker="Spk1"):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"🚀 Initializing Hybrid Training Pipeline on {device}")
     print(f"⚙️ Hyperparameters: Batch Size={batch_size}, Epochs={num_epochs}, Lambda={lambda_weight}")
 
     # 1. DATALOADERS
     # Training: Yields (Anchor EMG, Anchor MFCC, Positive EMG, Negative EMG)
-    train_dataset = EMGContrastiveDataset(processed_dir="CSL-EMG_Processed", speaker="Spk1")
+    train_dataset = EMGContrastiveDataset(processed_dir="CSL-EMG_Processed", speaker=speaker)
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, collate_fn=triplet_collate_fn)
 
     # 2. MODEL & LOSSES
@@ -79,10 +79,9 @@ def train_invariant_model(lambda_weight=0.5, batch_size=16, num_epochs=50, lr=1e
               f"MSE: {total_recon/batches:.3f} | "
               f"Triplet: {total_triplet/batches:.4f}")
 
-    # 4. SAVE ARTIFACTS
-    torch.save(model.state_dict(), "models/invariant_model.pth")
-    print("✅ Training complete. Weights securely saved to 'invariant_model.pth'")
+    torch.save(model.state_dict(), f"models/{speaker}_invariant_model.pth")
+    print("Training complete. Weights securely saved to 'invariant_model.pth'")
 
 if __name__ == "__main__":
-    # Begin training with an initial lambda weight of 0.5
-    train_invariant_model(lambda_weight=0.5)
+    for spk in ["Spk1","Spk2","Spk3","Spk4", "Spk5", "Spk6", "Spk7", "Spk8"]:
+        train_invariant_model(lambda_weight=0.5,num_epochs=1, speaker = spk)
