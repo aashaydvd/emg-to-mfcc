@@ -83,5 +83,5 @@ def train_invariant_model(lambda_weight=0.5, batch_size=16, num_epochs=50, lr=1e
     print("Training complete. Weights securely saved to 'invariant_model.pth'")
 
 if __name__ == "__main__":
-    for spk in ["Spk1","Spk2","Spk3","Spk4", "Spk5", "Spk6", "Spk7", "Spk8"]:
-        train_invariant_model(lambda_weight=0.5,num_epochs=1, speaker = spk)
+    for spk in ["Spk7", "Spk8"]:
+        train_invariant_model(lambda_weight=0.5,num_epochs=50, speaker = spk)

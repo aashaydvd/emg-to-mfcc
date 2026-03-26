@@ -60,4 +60,4 @@ def train_baseline(root_dir,num_epochs=50, speaker="Spk1", split="train"):
 
 if __name__ == "__main__":
     for spk in ["Spk1","Spk2","Spk3","Spk4", "Spk5", "Spk6", "Spk7", "Spk8"]:
-        train_baseline(root_dir="CSL-EMG_Processed",num_epochs=1,speaker=spk,split="train" )
+        train_baseline(root_dir="CSL-EMG_Processed",num_epochs=50,speaker=spk,split="train" )

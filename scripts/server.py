@@ -14,7 +14,7 @@ def main():
     os.makedirs(output_base_dir, exist_ok=True)
     
     speakers = ["Spk1", "Spk2", 
-                # "Spk3", "Spk4", "Spk5", "Spk6", "Spk7", "Spk8"
+                "Spk3", "Spk4", "Spk5", "Spk6", "Spk7", "Spk8"
                 ]
 
     # Dictionary to aggregate results for all speakers
